@@ -1,0 +1,1 @@
+// How  DOM works. Parse all the html tag into object and emit an event called DOMContentLoaded

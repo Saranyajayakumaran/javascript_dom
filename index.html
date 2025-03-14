@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+</head>
+<body>
+    <div id="app">
+        <h1> DOM LEARNING </h1>
+        <img src="https://cdn.pixabay.com/photo/2022/11/17/17/46/cat-7598590_1280.jpg" alt="CAT">
+
+    </div>
+    <!--<script src="DOM_loaded_events.js">-->
+    <script>
+        const myApp = document.getElementById("app")
+        myApp.innerHTML="<h1> Change title </h1>"
+        console.log(myApp)
+    </script>
+</body>
+</html>
+
+
