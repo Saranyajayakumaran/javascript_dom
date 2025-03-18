@@ -1,4 +1,11 @@
-let headingEl= document.getElementById("heading");
+let inputFood = document.getElementById("get-food-input");
+let inputButton = document.getElementById("input-btn");
+let response = document.getElementById("response");
 
-headingEl.innerText="Learning getElementById"
-console.log(headingEl.innerText);
+//console.log(inputFood);
+//console.log(inputButton);
+
+
+inputButton.addEventListener('click',() =>{
+    response.innerText=inputFood.value;
+})

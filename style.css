@@ -34,3 +34,23 @@ main > div > h1{
 main > div > p{
     font-size: 18px;
 }
+
+.food-input{
+    padding:5px 10px;
+    outline:none;
+    background-color: rgb(249, 248, 248);
+    width:300px;
+}
+
+.button-input{
+    padding:5px 10px;
+    background-color:#0D0630;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    margin-left:10px;
+}
+
+#response{
+    font-size:20px;
+}
